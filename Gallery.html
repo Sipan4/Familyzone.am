@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Family.css">
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto&display=swap');
+
+
+        .Gallery_Container {
+            padding-top: 150px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* background-color: red; */
+        }
+
+        .Gallery_Container>div {
+            width: 100%;
+            height: auto;
+        }
+
+        .Gallery_Container>div>h1 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 120px;
+            color: rgba(246, 229, 100, 0.488);
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .Gallery_Box {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .Gallery {
+            width: 350px;
+            height: 300px;
+            border-radius: 15px;
+            /* background-color: green; */
+            margin: 15px;
+            overflow: hidden;
+            transition: 0.3s;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.465);
+        }
+
+        .Gallery:hover {
+            transform: translateY(5px);
+            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.659);
+        }
+
+        .Gallery>img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media only screen and (min-width: 552px) and (max-width:768px) {
+            .Gallery {
+                width: 240px;
+                height: 240px;
+            }
+        }
+
+        @media only screen and (min-width: 320px) and (max-width:552px) {
+            .Gallery {
+                width: 350px;
+                height: 280px;
+            }
+
+            .Gallery_Container {
+                padding-top: 40px;
+            }
+
+            .Gallery_Container>div>h1 {
+                font-size: 80px;
+            }
+        }
+    </style>
+    <div class="Navbar">
+        <a href="./Family.html" class="logo"></a>
+        <div class="Menu_Box">
+            <div class="Navbar_Btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="Menu">
+                <ul>
+                    <li>
+                        <a href="./Family.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./About.html">Back</a>
+                    </li>
+                    <li>
+                        <a href="./Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="button_box">
+                <div>
+                    <select name="" id="">
+                        <option value="">English</option>
+                        <option value="">Armenian</option>
+                    </select>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="Gallery_Container">
+        <div>
+            <h1>Gallery</h1>
+        </div>
+        <div class="Gallery_Box">
+            <a href="./Assets/Gallery_img/1.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/1.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/2.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/2.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/3.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/3.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/4.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/4.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/5.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/5.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/52.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/52.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/49.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/49.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/55.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/55.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/56.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/56.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/57.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/57.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/58.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/58.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/59.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/59.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/6.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/6.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/7.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/7.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/8.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/8.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/9.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/9.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/10.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/10.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/11.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/11.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/13.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/13.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/14.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/14.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/18.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/18.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/19.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/19.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/20.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/20.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/21.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/21.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/22.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/22.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/23.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/23.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/24.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/24.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/25.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/25.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/26.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/26.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/27.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/27.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/28.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/28.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/30.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/30.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/32.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/32.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/33.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/33.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/34.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/34.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/35.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/35.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/36.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/36.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/37.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/37.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/39.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/39.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/40.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/40.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/41.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/41.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/42.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/42.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/43.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/43.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/44.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/44.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/45.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/45.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/46.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/46.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/47.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/47.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/48.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/48.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/50.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/50.JPG">
+            </a>
+            <a href="./Assets/Gallery_img/51.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/51.JPG">
+            </a>
+
+            <a href="./Assets/Gallery_img/54.JPG" class="Gallery">
+                <img src="./Assets/Gallery_img/54.JPG">
+            </a>
+
+        </div>
+    </div>
+</body>
+
+</html>
